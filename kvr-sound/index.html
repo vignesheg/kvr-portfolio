@@ -2,47 +2,72 @@
 <html lang="en">
 
 <head>
-
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="icon" href="assets/images/Kvr Groups(1).ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="icon" href="../assets/images/Kvr Groups(1).ico">
     <title>KVR-Groups</title>
-    <style>
-        body {
-            background-image: url("../assets/images/pexels-soumil-kumar-735911.jpg");
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-    </style>
 
 
 </head>
 
-<body>
+<body class="bg-light">
+    <!--slidebar-->
+    <div class="offcanvas offcanvas-start" id="slidebar" style="background-color: rgba(117, 117, 117, 0.62);">
+        <div class="offcanvas-header d-flex justify-content-end">
+
+            <button type="button" class="text-white nav-button text-reset" data-bs-dismiss="offcanvas">
+                <i class="fa-solid fa-x fa-lg" style="color: #f5f5f5;"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body">
+
+        </div>
+    </div>
+    <!--navigation bar-->
+    <nav class="container-sm p-4 text-white" style="border-bottom: 1px solid white;">
+        <div class="d-flex justify-content-between">
+            <div class="p-3">
+                <button class="nav-button text-white" data-bs-toggle="offcanvas" data-bs-target="#slidebar">
+                    <i class="fa-solid fa-bars fa-xl"></i>
+                </button>
+            </div>
+            <div>
+                <img src="../assets/images/V Sound Lab.png" class="img-fluid rounded-circle"
+                    style="width: 50px;height:50px;">
+            </div>
+            <div></div>
+        </div>
+    </nav>
+    <!--logo about container-->
     <div class="container-sm p-5">
         <div class="card bg-transparent" style="border: none;">
             <div class="row g-0">
-                <div class="col-sm-2">
+                <div class="col-sm-2 text-white">
                     <img src="../assets/images/V Sound Lab.png" class="img-fluid rounded-circle">
                 </div>
-                <div class="col-sm-8 p-3">
-                    <p class="lh-lg text-white">
-
-                        "V Sound Labs is a premier sound engineering company specializing in Dolby Atmos mixing, music
-                        composition, mix mastering, and sound design.
-                        Our team of dedicated professionals brings your audio visions to life, creating immersive and
-                        captivating auditory experiences.
-                        Explore our services on our website to discover the perfect sound for your project."
-                    </p>
+                <div class="col-md-10 p-3 text-white">
+                    <div class="card-body">
+                        <h5>About Us :</h5>
+                        <p class="lh-lg ">
+                            "V Sound Labs is a premier sound engineering company specializing in Dolby Atmos mixing,
+                            music composition, mix mastering, and sound design.
+                            Our team of dedicated professionals brings your audio visions to life,
+                            creating immersive and captivating auditory experiences.
+                            Explore our services on our website to discover the perfect sound for your project."</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+
+
 </body>
 
 </html>

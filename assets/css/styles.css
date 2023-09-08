@@ -10,3 +10,8 @@ body{
 .link-hover:hover{
     translate: 5px -10px;
 }
+
+.nav-button{
+    background-color: transparent;
+    border: none;
+}
