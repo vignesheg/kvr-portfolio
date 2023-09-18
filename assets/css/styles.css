@@ -1,5 +1,5 @@
 body{
-    background-image: url("../images/pexels-soumil-kumar-735911.jpg");
+    background-image: url("../images/kvr-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -15,3 +15,59 @@ body{
     background-color: transparent;
     border: none;
 }
+
+
+.slidebar-link:hover{
+    background-color: rgba(114, 114, 114, 0.455);
+    border-radius: 8px;
+
+}
+
+.link-shadow{
+    box-shadow: 0px 0px 10px rgba(252, 43, 43, 0.901);
+}
+
+.link-img{
+    transition:transform 0.5s;
+}
+
+.link-img:hover{
+    box-shadow: 0px 0px 20px rgba(252, 43, 43, 0.901);
+    transform: scale(1.04,1.04);
+}
+
+.offcanvas{
+    transition-duration: 0.5s;
+}
+
+.hr-lines:before{
+    content:" ";
+    display: block;
+    height: 5px;
+    width: 9.25rem;
+    position: absolute;
+    top: 50%;
+    left: -20%;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.hr-lines{
+    position: relative;
+    /*  new lines  */
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+  }
+
+  .hr-lines:after{
+    content:" ";
+    height: 5px;
+    width: 9.25rem;
+    background: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: -20%;
+    border-radius: 8px;
+  }
