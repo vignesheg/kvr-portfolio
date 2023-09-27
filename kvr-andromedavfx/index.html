@@ -13,57 +13,56 @@
     <link rel="icon" href="../assets/images/Kvr Groups(1).ico">
     <title>KVR-Groups</title>
 
-    d-block p-2
 </head>
 
-<body class="bg-light">
+<body class="">
     <!--slidebar-->
-    <div class="offcanvas offcanvas-start" id="slidebar" style="background-color: rgba(117, 117, 117, 0.62);">
+    <div class="offcanvas offcanvas-start"  id="slidebar" style="background-color: rgb(255, 255, 255);">
         <div class="offcanvas-header d-flex justify-content-end">
 
-            <button type="button" class="text-white nav-button text-reset" data-bs-dismiss="offcanvas">
-                <i class="fa-solid fa-x fa-lg" style="color: #f5f5f5;"></i>
+            <button type="button"   class="text-white nav-button text-reset" data-bs-dismiss="offcanvas">
+                <i class="fa-solid fa-x fa-lg"  style="color: #000000;"></i>
             </button>
         </div>
         <div class="offcanvas-body mt-4">
             <div class="d-flex flex-column">
                 <div class="text-center slidebar-link">
-                    <a href="../" class="text-white d-block p-2" style="text-decoration: none;">
-                        <i class="fa-solid fa-house-chimney fa-lg" style="color: #fcfcfc;"></i> Home
+                    <a href="../" class="text-dark d-block p-2" style="text-decoration: none;">
+                        <i class="fa-solid fa-house-chimney fa-lg" style="color: #000000;"></i> Home
                     </a>
                 </div>
                 <div class="text-center slidebar-link">
-                    <a href="#" class="text-white d-block p-2" style="text-decoration: none;">
-                        <i class="fa-solid fa-people-group fa-lg pe-2" style="color: #ffffff;"></i> Founders
+                    <a href="#" class="text-dark d-block p-2" style="text-decoration: none;">
+                        <i class="fa-solid fa-people-group fa-lg pe-2" style="color: #000000;"></i> Founders
                     </a>
                 </div>
-                <div class="text-center  slidebar-link">
-                    <a href="#" class="text-white  d-block p-2" style="text-decoration:none;">
-                        <i class="fa-solid fa-atom fa-lg pe-2" style="color: #ffffff;"></i> R&D
+                <div class="text-center slidebar-link">
+                    <a href="#" class="text-dark  d-block p-2" style="text-decoration:none;">
+                        <i class="fa-solid fa-atom fa-lg pe-2" style="color: #000000;"></i> R&D
                     </a>
                 </div>
 
-                <div class="text-center  slidebar-link">
-                    <a href="#" class="text-white  d-block p-2" style="text-decoration:none;">
-                        <i class="fa-solid fa-person-circle-check fa-lg pe-2" style="color: #ffffff;"></i> Recent
+                <div class="text-center slidebar-link">
+                    <a href="#" class="text-dark  d-block p-2" style="text-decoration:none;">
+                        <i class="fa-solid fa-person-circle-check fa-lg pe-2" style="color: #000000;"></i> Recent
                         Clients
                     </a>
                 </div>
 
-                <div class="text-center  slidebar-link">
-                    <a href="#" class="text-white  d-block p-2" style="text-decoration:none;">
-                        <i class="fa-solid fa-trophy fa-lg pe-2" style="color: #ffffff;"></i> Projects
+                <div class="text-center slidebar-link">
+                    <a href="#" class="text-dark  d-block p-2" style="text-decoration:none;">
+                        <i class="fa-solid fa-trophy fa-lg pe-2" style="color: #000000;"></i> Projects
                     </a>
                 </div>
             </div>
         </div>
     </div>
     <!--navigation bar-->
-    <nav class="container-sm p-4 text-white" style="border-bottom: 1px solid white;">
+    <nav class="container-sm p-3 navbar-border text-white sticky bg-white shadow-sm">
         <div class="d-flex justify-content-between">
             <div class="p-2">
-                <button class="nav-button text-white" data-bs-toggle="offcanvas" data-bs-target="#slidebar">
-                    <i class="fa-solid fa-bars fa-xl"></i>
+                <button class="nav-button text-dark" onclick="slideanimate()" data-bs-toggle="offcanvas" data-bs-target="#slidebar" aria-controls="offcanvasScrolling">
+                    <i class="fa-solid fa-bars fa-xl" id="slide-btn"></i>
                 </button>
             </div>
             <div>
@@ -78,7 +77,7 @@
         <div class="card bg-transparent" style="border: none;">
             <div class="row g-0">
                 <div class="col-sm-2 text-white">
-                    <img src="../assets/images/Andromeda Logo.jpg" class="img-fluid rounded-circle">
+                    <img src="../assets/images/Andromeda Logo.jpg" class="img-fluid rounded-circle abt-logo">
                 </div>
                 <div class="col-md-10 p-3 text-white">
                     <div class="card-body bg-dark link-shadow" style="border-radius: 8px;">
