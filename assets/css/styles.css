@@ -1,8 +1,5 @@
 body{
-    background-image: url("../images/kvr-bg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: rgba(236, 236, 236, 0.85);
 }
 
 
@@ -16,24 +13,31 @@ body{
     border: none;
 }
 
+.slidebar-link{
+    transition:transform 0.2s;
+}
 
 .slidebar-link:hover{
-    background-color: rgba(114, 114, 114, 0.455);
+    background-color: rgb(253, 253, 253);
     border-radius: 8px;
-
+    color: black;
+    transform: scale(1.04,1.04);
+    box-shadow: 0px 0px 10px rgba(203, 203, 203, 0.901);
 }
 
 .link-shadow{
-    box-shadow: 0px 0px 10px rgba(252, 43, 43, 0.901);
+    box-shadow: 0px 10px 20px rgba(203, 203, 203, 0.901);
 }
 
 .link-img{
     transition:transform 0.5s;
+    border: 10px solid rgb(246, 246, 246);
 }
 
 .link-img:hover{
-    box-shadow: 0px 0px 20px rgba(252, 43, 43, 0.901);
+    box-shadow: 0px 10px 20px rgba(203, 203, 203, 0.901);
     transform: scale(1.04,1.04);
+    border: 10px solid rgb(246, 246, 246);
 }
 
 .offcanvas{
@@ -48,7 +52,7 @@ body{
     position: absolute;
     top: 50%;
     left: -20%;
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     border-radius: 8px;
 }
 
@@ -64,10 +68,26 @@ body{
     content:" ";
     height: 5px;
     width: 9.25rem;
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     display: block;
     position: absolute;
     top: 50%;
     right: -20%;
     border-radius: 8px;
+  }
+
+  .sticky{
+    position: sticky;
+    top: 0;
+    
+  }
+
+  .navbar-border{
+    z-index: 1;
+    border-radius: 18px;
+  }
+
+  .abt-logo{
+    border: 10px solid white;
+    box-shadow: 0px 10px 20px rgba(203, 203, 203, 0.901);
   }
