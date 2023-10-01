@@ -7,7 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../assets/css/styles.css">
     <link rel="icon" href="../assets/images/Kvr Groups(1).ico">
     <title>KVR-Groups</title>
@@ -16,82 +17,111 @@
 
 <body class="">
     <div id="preloader" class=""></div>
-    <div class="offcanvas offcanvas-start"  id="slidebar" style="background-color: rgb(255, 255, 255);">
-        <div class="offcanvas-header d-flex justify-content-end">
+    <div class="all-cont">
+        <div class="offcanvas offcanvas-start" id="slidebar" style="background-color: rgb(255, 255, 255);">
+            <div class="offcanvas-header d-flex justify-content-end">
 
-            <button type="button"   class="text-white nav-button text-reset" data-bs-dismiss="offcanvas">
-                <i class="fa-solid fa-x fa-lg"  style="color: #000000;"></i>
-            </button>
-        </div>
-        <div class="offcanvas-body mt-4">
-            <div class="d-flex flex-column">
-                <div class="text-center slidebar-link">
-                    <a href="../" class="text-dark d-block p-2" style="text-decoration: none;">
-                        <i class="fa-solid fa-house-chimney fa-lg" style="color: #000000;"></i> Home
-                    </a>
-                </div>
-                <div class="text-center slidebar-link">
-                    <a href="#" class="text-dark d-block p-2" style="text-decoration: none;">
-                        <i class="fa-solid fa-people-group fa-lg pe-2" style="color: #000000;"></i> Founders
-                    </a>
-                </div>
-                <div class="text-center slidebar-link">
-                    <a href="#" class="text-dark  d-block p-2" style="text-decoration:none;">
-                        <i class="fa-solid fa-atom fa-lg pe-2" style="color: #000000;"></i> R&D
-                    </a>
-                </div>
-
-                <div class="text-center slidebar-link">
-                    <a href="#" class="text-dark  d-block p-2" style="text-decoration:none;">
-                        <i class="fa-solid fa-person-circle-check fa-lg pe-2" style="color: #000000;"></i> Recent
-                        Clients
-                    </a>
-                </div>
-
-                <div class="text-center slidebar-link">
-                    <a href="#" class="text-dark  d-block p-2" style="text-decoration:none;">
-                        <i class="fa-solid fa-trophy fa-lg pe-2" style="color: #000000;"></i> Projects
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--navigation bar-->
-    <nav class="container-sm p-3 navbar-border text-white  bg-white shadow-sm">
-        <div class="d-flex justify-content-between">
-            <div class="p-2">
-                <button class="nav-button text-dark" onclick="slideanimate()" data-bs-toggle="offcanvas" data-bs-target="#slidebar" aria-controls="offcanvasScrolling">
-                    <i class="fa-solid fa-bars fa-xl" id="slide-btn"></i>
+                <button type="button" class="text-white nav-button text-reset" data-bs-dismiss="offcanvas">
+                    <i class="fa-solid fa-x fa-lg" style="color: #000000;"></i>
                 </button>
             </div>
-            <div>
-                <img src="../assets/images/KVR GROUPS NEW LOGO.jpg" class="img-fluid rounded-circle"
-                    style="width: 50px;height:50px;">
-            </div>
-            <div></div>
-        </div>
-    </nav>
-    <!--logo about container-->
-    <div class="container-sm mt-5">
-        <div class="card bg-transparent" style="border: none;">
-            <div class="row g-0">
-                <div class="col-sm-2 pe-3 text-white">
-                    <img src="../assets/images/Kvr Entertainments.png" class="img-fluid rounded-circle abt-logo">
-                </div>
-                <div class="col-md-10 mt-2 text-white">
-                    <div class="card-body bg-dark link-shadow" style="border-radius: 8px;">
-                        <h5>About Us :</h5>
-                        <p class="">
-                            KVR Entertainments is a film production and entertainment company that offers a wide range of services and products in the entertainment industry.</p>
-                             <p>Our company is dedicated to creating captivating films and providing various entertainment-related offerings to cater to diverse audiences.>With a strong focus on delivering high-quality content and experiences, 
-                            we strive to be a prominent player in the entertainment sector.</p>
+            <div class="offcanvas-body mt-4">
+                <div class="d-flex flex-column">
+                    <div class="text-center slidebar-link">
+                        <a href="../" class="text-dark d-block p-2" style="text-decoration: none;">
+                            <i class="fa-solid fa-house-chimney fa-lg" style="color: #000000;"></i> Home
+                        </a>
+                    </div>
+                    <div class="text-center slidebar-link">
+                        <a href="#" class="text-dark d-block p-2" style="text-decoration: none;">
+                            <i class="fa-solid fa-people-group fa-lg pe-2" style="color: #000000;"></i> Founders
+                        </a>
+                    </div>
+                    <div class="text-center slidebar-link">
+                        <a href="#" class="text-dark  d-block p-2" style="text-decoration:none;">
+                            <i class="fa-solid fa-atom fa-lg pe-2" style="color: #000000;"></i> R&D
+                        </a>
+                    </div>
+
+                    <div class="text-center slidebar-link">
+                        <a href="#" class="text-dark  d-block p-2" style="text-decoration:none;">
+                            <i class="fa-solid fa-person-circle-check fa-lg pe-2" style="color: #000000;"></i> Recent
+                            Clients
+                        </a>
+                    </div>
+
+                    <div class="text-center slidebar-link">
+                        <a href="#" class="text-dark  d-block p-2" style="text-decoration:none;">
+                            <i class="fa-solid fa-trophy fa-lg pe-2" style="color: #000000;"></i> Projects
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
+        <!--navigation bar-->
+        <nav class="container-sm p-3 navbar-border text-white  bg-white shadow-sm">
+            <div class="d-flex justify-content-between">
+                <div class="p-2">
+                    <button class="nav-button text-dark" onclick="slideanimate()" data-bs-toggle="offcanvas"
+                        data-bs-target="#slidebar" aria-controls="offcanvasScrolling">
+                        <i class="fa-solid fa-bars fa-xl" id="slide-btn"></i>
+                    </button>
+                </div>
+                <div>
+                    <img src="../assets/images/KVR GROUPS NEW LOGO.jpg" class="img-fluid rounded-circle"
+                        style="width: 50px;height:50px;">
+                </div>
+                <div></div>
+            </div>
+        </nav>
+        <!--logo about container-->
+        <div class="container-sm mt-5">
+            <div class="card bg-transparent" style="border: none;">
+                <div class="row g-0">
+                    <div class="col-sm-2 pe-3 text-white">
+                        <img src="../assets/images/Kvr Entertainments.png" class="img-fluid rounded-circle abt-logo">
+                    </div>
+                    <div class="col-md-10 mt-2 text-white">
+                        <div class="card-body bg-dark link-shadow" style="border-radius: 8px;">
+                            <h5>About Us :</h5>
+                            <p class="">
+                                KVR Entertainments is a film production and entertainment company that offers a wide
+                                range of services and products in the entertainment industry.</p>
+                            <p>Our company is dedicated to creating captivating films and providing various
+                                entertainment-related offerings to cater to diverse audiences.>With a strong focus on
+                                delivering high-quality content and experiences,
+                                we strive to be a prominent player in the entertainment sector.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-sm">
+            <h1 class="text-center mt-5">Works & Payments</h1>
+            <table class="table table-hover" style="margin-top: 50px;">
+                <thead>
+                    <tr class="text-center">
+                        <th>Works</th>
+                        <th>Payment</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center">
+                    <tr>
+                        <td>Video Distribution</td>
+                        <td>1000Rs</td>
+                    </tr>
+                    <tr>
+                        <td>Audio Distribution</td>
+                        <td>1000Rs</td>
+                    </tr>
+                    <tr>
+                        <td>Promotion</td>
+                        <td>1000Rs</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
-    </div>
-
     <script src="../assets/js/script.js"></script>
 </body>
 
