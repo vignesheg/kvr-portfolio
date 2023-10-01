@@ -16,6 +16,7 @@
 </head>
 
 <body class="">
+    <div id="preloader" class=""></div>
     <!--slidebar-->
     <div class="offcanvas offcanvas-start"  id="slidebar" style="background-color: rgb(255, 255, 255);">
         <div class="offcanvas-header d-flex justify-content-end">
@@ -58,7 +59,7 @@
         </div>
     </div>
     <!--navigation bar-->
-    <nav class="container-sm p-3 navbar-border text-white sticky bg-white shadow-sm">
+    <nav class="container-sm p-3 navbar-border text-white  bg-white shadow-sm">
         <div class="d-flex justify-content-between">
             <div class="p-2">
                 <button class="nav-button text-dark" onclick="slideanimate()" data-bs-toggle="offcanvas" data-bs-target="#slidebar" aria-controls="offcanvasScrolling">
@@ -73,19 +74,19 @@
         </div>
     </nav>
     <!--logo about container-->
-    <div class="container-sm p-5">
+    <div class="container-sm mt-5">
         <div class="card bg-transparent" style="border: none;">
             <div class="row g-0">
-                <div class="col-sm-2 text-white">
+                <div class="col-sm-2 pe-3 text-white">
                     <img src="../assets/images/Andromeda Logo.jpg" class="img-fluid rounded-circle abt-logo">
                 </div>
-                <div class="col-md-10 p-3 text-white">
+                <div class="col-md-10 mt-2 text-white">
                     <div class="card-body bg-dark link-shadow" style="border-radius: 8px;">
                         <h5>About Us :</h5>
-                        <p class="lh-lg ">
+                        <p class="">
                             "Andromeda VFX (P) Ltd is a leading name in the realm of video engineering services. We
                             specialize in delivering top-tier video production and post-production solutions for a
-                            diverse clientele. Our team of experts harnesses cutting-edge technology and creative
+                            diverse clientele.</p><p>Our team of experts harnesses cutting-edge technology and creative
                             prowess to bring your visual concepts to life. Explore our website to experience the magic
                             of Andromeda VFX."</p>
                     </div>
@@ -94,8 +95,43 @@
         </div>
     </div>
     </div>
+    <div class="container-sm" >
+        <h1 class="text-center mt-5">Works & Payments</h1>
+        <table class="table table-hover" style="margin-top: 50px;">
+            <thead>
+                <tr class="text-center">
+                    <th>Works</th>
+                    <th>Payment</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                <tr>
+                    <td>Poster Desiging & promo video editing</td>
+                    <td>3000Rs (based on work payment
+                        will difer)</td>
+                </tr>
+                <tr>
+                    <td>Motion Poster</td>
+                    <td>2500Rs (based on work payment will be differ)</td>
+                </tr>
+                <tr>
+                    <td>Funcution Video Editing</td>
+                    <td>20,000Rs (based on work payment will be</td>
+                </tr>
+                <tr>
+                    <td>2d Animation And 3d Animation</td>
+                    <td>20,000Rs (based on work payment will
+                        be differ)</td>
+                </tr>
+                <tr>
+                    <td>Short Film</td>
+                    <td>10,000Rs (based on work payment will be differ)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-
+    <script src="../assets/js/script.js"></script>
 </body>
 
 </html>

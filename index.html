@@ -17,135 +17,143 @@
 </head>
 
 <body class="">
-    <!--slidebar-->
-    <div class="offcanvas offcanvas-start"  id="slidebar" style="background-color: rgb(255, 255, 255);">
-        <div class="offcanvas-header d-flex justify-content-end">
+    <div id="preloader" class=""></div>
+    <div class="all-cont">
 
-            <button type="button"   class="text-white nav-button text-reset" data-bs-dismiss="offcanvas">
-                <i class="fa-solid fa-x fa-lg"  style="color: #000000;"></i>
-            </button>
-        </div>
-        <div class="offcanvas-body mt-4">
-            <div class="d-flex flex-column">
-                <div class="text-center slidebar-link">
-                    <a href="" class="text-dark d-block p-2" style="text-decoration: none;">
-                        <i class="fa-solid fa-house-chimney fa-lg" style="color: #000000;"></i> Home
-                    </a>
-                </div>
-                <div class="text-center slidebar-link">
-                    <a href="#" class="text-dark d-block p-2" style="text-decoration: none;">
-                        <i class="fa-solid fa-people-group fa-lg pe-2" style="color: #000000;"></i> Founders
-                    </a>
-                </div>
-                <div class="text-center slidebar-link">
-                    <a href="#" class="text-dark  d-block p-2" style="text-decoration:none;">
-                        <i class="fa-solid fa-atom fa-lg pe-2" style="color: #000000;"></i> R&D
-                    </a>
-                </div>
+        <!--slidebar-->
+        <div class="offcanvas offcanvas-start" id="slidebar" style="background-color: rgb(255, 255, 255);">
+            <div class="offcanvas-header d-flex justify-content-end">
 
-                <div class="text-center slidebar-link">
-                    <a href="#" class="text-dark  d-block p-2" style="text-decoration:none;">
-                        <i class="fa-solid fa-person-circle-check fa-lg pe-2" style="color: #000000;"></i> Recent
-                        Clients
-                    </a>
-                </div>
-
-                <div class="text-center slidebar-link">
-                    <a href="#" class="text-dark  d-block p-2" style="text-decoration:none;">
-                        <i class="fa-solid fa-trophy fa-lg pe-2" style="color: #000000;"></i> Projects
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--navigation bar-->
-    <nav class="container-sm p-3 navbar-border text-white sticky bg-white shadow-sm" style="margin-left:2.5%;">
-        <div class="d-flex justify-content-between">
-            <div class="p-2">
-                <button class="nav-button text-dark" onclick="slideanimate()" data-bs-toggle="offcanvas" data-bs-target="#slidebar" aria-controls="offcanvasScrolling">
-                    <i class="fa-solid fa-bars fa-xl" id="slide-btn"></i>
+                <button type="button" class="text-white nav-button text-reset" data-bs-dismiss="offcanvas">
+                    <i class="fa-solid fa-x fa-lg" style="color: #000000;"></i>
                 </button>
             </div>
-            <div>
-                <img src="assets/images/KVR GROUPS NEW LOGO.jpg" class="img-fluid rounded-circle"
-                    style="width: 50px;height:50px;">
-            </div>
-            <div></div>
-        </div>
-    </nav>
-    <!--logo about container-->
-    <div class="container-sm pt-5">
-        <div class="card bg-transparent" style="border: none;">
-            <div class="row g-0">
-                <div class="col-sm-2 pe-4 text-white">
-                    <img src="assets/images/KVR GROUPS NEW LOGO.jpg" class="img-fluid rounded-circle abt-logo">
-                </div>
-                <div class="col-md-10 text-white">
-                    <div class="card-body bg-dark link-shadow mt-3" style="border-radius: 8px;">
-                        <h5>About Us :</h5>
-                        <p class="lh-lg ">Kvr Groups is a service and product-based organization.
-                            On our website, we describe what we have accomplished and what we offer.
-                            We believe in letting our actions speak louder than words, so explore our site to see what
-                            we can do for you!</p>
+            <div class="offcanvas-body mt-4">
+                <div class="d-flex flex-column">
+                    <div class="text-center slidebar-link">
+                        <a href="" class="text-dark d-block p-2" style="text-decoration: none;">
+                            <i class="fa-solid fa-house-chimney fa-lg" style="color: #000000;"></i> Home
+                        </a>
+                    </div>
+                    <div class="text-center slidebar-link">
+                        <a href="#" class="text-dark d-block p-2" style="text-decoration: none;">
+                            <i class="fa-solid fa-people-group fa-lg pe-2" style="color: #000000;"></i> Founders
+                        </a>
+                    </div>
+                    <div class="text-center slidebar-link">
+                        <a href="#" class="text-dark  d-block p-2" style="text-decoration:none;">
+                            <i class="fa-solid fa-atom fa-lg pe-2" style="color: #000000;"></i> R&D
+                        </a>
+                    </div>
+
+                    <div class="text-center slidebar-link">
+                        <a href="#" class="text-dark  d-block p-2" style="text-decoration:none;">
+                            <i class="fa-solid fa-person-circle-check fa-lg pe-2" style="color: #000000;"></i> Recent
+                            Clients
+                        </a>
+                    </div>
+
+                    <div class="text-center slidebar-link">
+                        <a href="#" class="text-dark  d-block p-2" style="text-decoration:none;">
+                            <i class="fa-solid fa-trophy fa-lg pe-2" style="color: #000000;"></i> Projects
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-    <!--subsidaries logos-->
-    <div class="container-sm p-2">
-        <div class="text-dark ">
-            <h1 class="hr-lines">Our Subsidres</h1>
-        </div>
-        <div class="d-flex justify-content-between" style="margin-top: 2rem;">
-            <div class="p-1">
-                <a href="aspiron">
-                    <img src="assets/images/Aspiorn.jpg" class="rounded-circle mx-auto d-block img-fluid link-shadow link-img">
-                </a>
+        <!--navigation bar-->
+        <nav class="container-sm p-3 navbar-border text-white  bg-white shadow-sm" >
+            <div class="d-flex justify-content-between">
+                <div class="p-2">
+                    <button class="nav-button text-dark" onclick="slideanimate()" data-bs-toggle="offcanvas"
+                        data-bs-target="#slidebar" aria-controls="offcanvasScrolling">
+                        <i class="fa-solid fa-bars fa-xl" id="slide-btn"></i>
+                    </button>
+                </div>
+                <div>
+                    <img src="assets/images/KVR GROUPS NEW LOGO.jpg" class="img-fluid rounded-circle"
+                        style="width: 50px;height:50px;">
+                </div>
+                <div></div>
             </div>
-            <div class="p-1" >
-                <a href="kvr-sound">
-                    <img src="assets/images/V Sound Lab.png"
-                        class="rounded-circle mx-auto d-block img-fluid link-shadow link-img">
-                </a>
-            </div>
-            <div class="p-1">
-                <a href="kvr-photography">
-                    <img src="assets/images/Kvr Photography 2.png"
-                        class="rounded-circle mx-auto d-block img-fluid link-shadow link-img">
-                </a>
-            </div>
-            <div class="p-1">
-                <a href="kvr-entertainment">
-                    <img src="assets/images/Kvr Entertainments.png"
-                        class="rounded-circle mx-auto d-block img-fluid link-shadow link-img">
-                </a>
-            </div>
-        </div>
-        <div class="d-flex justify-content-center mt-5">
-            <div class="p-3" style="width: 22rem;height:22rem;">
-                <a href="kvr-Greenideas/">
-                <img src="assets/images/Green Ideas.jpg" 
-                class="rounded-circle mx-auto d-block img-fluid link-shadow link-img" >
-            </a>
-            </div>
-            <div class="p-3" style="width: 22rem;height:22rem;">
-                <a href="https://www.youtube.com/@Heptatonictamilzha" target="_blank">
-                <img src="assets/images/HEPTATONIC TAMILZHA.jpg" 
-                class="rounded-circle mx-auto d-block img-fluid link-shadow link-img" >
-            </a>
-            </div>
-            <div class="p-3" style="width: 22rem;height:22rem;">
-                <a href="kvr-andromedavfx/">
-                <img src="assets/images/Andromeda Logo.jpg" 
-                class="rounded-circle mx-auto d-block img-fluid link-shadow link-img">
-            </a>
+        </nav>
+        <!--logo about container-->
+        <div class="container-sm mt-5">
+            <div class="card bg-transparent" style="border: none;">
+                <div class="row g-0">
+                    <div class="col-sm-2 pe-3 text-white">
+                        <img src="assets/images/KVR GROUPS NEW LOGO.jpg" class="img-fluid rounded-circle abt-logo">
+                    </div>
+                    <div class="col-md-10 text-white">
+                        <div class="card-body bg-dark link-shadow mt-3" style="border-radius: 8px;">
+                            <h5>About Us :</h5>
+                            <p class="lh-lg ">Kvr Groups is a service and product-based organization.
+                                On our website, we describe what we have accomplished and what we offer.
+                                We believe in letting our actions speak louder than words, so explore our site to see
+                                what
+                                we can do for you!</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        
+
+
+        <!--subsidaries logos-->
+        <div class="container-sm p-2">
+            <div class="text-dark ">
+                <h1 class="hr-lines">Our Subsidres</h1>
+            </div>
+            <div class="d-flex justify-content-between"  style="margin-top: 2rem;">
+                <div class="p-1" id="logolink">
+                    <a href="aspiron">
+                        <img src="assets/images/Aspiorn.jpg"
+                            class="rounded-circle mx-auto d-block img-fluid link-shadow link-img">
+                    </a>
+                </div>
+                <div class="p-1" id="logolink">
+                    <a href="kvr-sound">
+                        <img src="assets/images/V Sound Lab.png"
+                            class="rounded-circle mx-auto d-block img-fluid link-shadow link-img">
+                    </a>
+                </div>
+                <div class="p-1" id="logolink">
+                    <a href="kvr-photography">
+                        <img src="assets/images/Kvr Photography 2.png"
+                            class="rounded-circle mx-auto d-block img-fluid link-shadow link-img">
+                    </a>
+                </div>
+                <div class="p-1" id="logolink">
+                    <a href="kvr-entertainment">
+                        <img src="assets/images/Kvr Entertainments.png"
+                            class="rounded-circle mx-auto d-block img-fluid link-shadow link-img">
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+                <div class="p-3" style="width: 22rem;" id="logolink">
+                    <a href="kvr-Greenideas">
+                        <img src="assets/images/Green Ideas.jpg"
+                            class="rounded-circle mx-auto d-block img-fluid link-shadow link-img">
+                    </a>
+                </div>
+                <div class="p-3" style="width: 22rem;" id="logolink">
+                    <a href="heptonic-tamizha" target="_blank">
+                        <img src="assets/images/HEPTATONIC TAMILZHA.jpg"
+                            class="rounded-circle mx-auto d-block img-fluid link-shadow link-img">
+                    </a>
+                </div>
+                <div class="p-3" style="width: 22rem;" id="logolink">
+                    <a href="kvr-andromedavfx">
+                        <img src="assets/images/Andromeda Logo.jpg"
+                            class="rounded-circle mx-auto d-block img-fluid link-shadow link-img">
+                    </a>
+                </div>
+            </div>
+
+        </div>
     </div>
-<script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

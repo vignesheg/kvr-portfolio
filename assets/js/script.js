@@ -5,4 +5,14 @@ function slideanimate(){
     setTimeout(()=>{
         slideBtn.classList.remove("fa-flip");
     },500);
+
 }
+
+    let preloader = document.getElementById("preloader");
+    setTimeout(()=>{
+        preloader.classList.add("hide");
+    },3000);
+
+      
+
+
