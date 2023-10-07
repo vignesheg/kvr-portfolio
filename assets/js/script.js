@@ -16,7 +16,7 @@ function slideanimate(){
     setTimeout(()=>{
         $(document).ready(function(){
 
-            $(".div").fadeIn(3000);
+            $(".div").fadeIn(2000);
         
         });
     },3020);
