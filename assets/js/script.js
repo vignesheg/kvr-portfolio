@@ -13,6 +13,15 @@ function slideanimate(){
         preloader.classList.add("hide");
     },3000);
 
+    setTimeout(()=>{
+        $(document).ready(function(){
+
+            $(".div").fadeIn(1000);
+        
+        });
+    },3020);
+
+
       
 
 
